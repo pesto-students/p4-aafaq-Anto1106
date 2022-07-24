@@ -24,7 +24,7 @@ h. Layout and Painting
 
 Before we start with understanding functionality let’s checkout different type of browsers that are available int the market today.
 
-![](web_browsers.png)
+![](web_browsers.jpeg)
 
 Image 1.1 Different Browsers available in market
 
