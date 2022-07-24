@@ -22,11 +22,9 @@ h. Layout and Painting
 
 ## What is the main functionality of the browser?
 
-**	Before we start with understanding functionality let’s checkout different type of browsers that are available int the market today.
+Before we start with understanding functionality let’s checkout different type of browsers that are available int the market today.
 
-![A picture containing logo
-
-Description automatically generated](browser_types.png)
+![](browser_types.png)
 
 Image 1.1 Different Browsers available in market
 
@@ -40,9 +38,7 @@ A desktop/mobile application developed to navigate through available contents in
 
 Below is the flow provided in an image format for easy understanding what exactly does a web browser do when a particular URL is searched by the user in the browser.
 
-`	`![Diagram
-
-Description automatically generated](how_browser_works.png)
+![](how_browser_works.png)
 
 
 As shown in the above diagram we will try to understand how browser works in deep.
@@ -55,7 +51,6 @@ For example, IP address for [www.google.com](http://www.google.com) is 142.250.1
 
 Once ISP get to know which IP address to visit it will go to that IP address server and ask for content that should be provided to the user. The content then is sent back to ISP and ISP provides the content to the user. The content may be in any format once of the main format that we usually see is HTML and CSS by which we are able to access the website that is provided to the user.
 
-**
 
 ## High Level Components of a browser
 
@@ -69,7 +64,7 @@ Let’s try to understand each component in detail.
 4. Data Storage:
 5. JavaScript Interpreter:
 
-## Rendering engine and its use:**
+## Rendering engine and its use:
 
 Rendering engine are software’s that are available in browser to show the content on screen based on what is provided for example there may be text, image. With the help of engine whatever structured text is from a document is provided mostly html content and format the given structured text to given style declaration some example of render engines are Blink, Webkit, Edge HTML.
 
@@ -120,43 +115,43 @@ Written like this, it’s quite difficult to tell that the head and body tag
 So a best practice developed among coders. The convention is to indent them like this:
 ```html
 <html>
-`   `<head></head>
-`   `<body></body>
+     <head></head>
+     <body></body>
 </html>
 ```
 Right away, we can clearly and easily tell that the head and body tags are inside the html tag:
 ```html
 <html>
-`   `<head></head>
-`   `<body></body>
+     <head></head>
+     <body></body>
 </html>
 ```
 Just like a family tree, we can refer to the head and body tags as the children of the html tag:
 ```html
 <html>
-`   `<head></head>
-`   `<body></body>
+     <head></head>
+     <body></body>
 </html>
 ```
 And the html tag as the parent of the head tag and body tag:
 ```html
 <html>
-`   `<head></head>
-`   `<body></body>
+     <head></head>
+     <body></body>
 </html>
 ```
 We could even be more specific and refer to the head tag as the first child of the html tag:
 ```html
 <html>
-`   `<head></head>
-`   `<body></body>
+     <head></head>
+     <body></body>
 </html>
 ```
 And the body tag as the last child of the html tag:
 ```html
 <html>
-`   `<head></head>
-`   `<body></body>
+     <head></head>
+     <body></body>
 </html>
 ```
 
