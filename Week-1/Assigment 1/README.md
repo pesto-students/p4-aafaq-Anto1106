@@ -59,10 +59,10 @@ There are 5 main components of a web browser they are User Interface, Browser En
 Let’s try to understand each component in detail.
 
 1. User Interface: So, user interface basically means thing that can be used by the user so that he/she can interact with the browser some of the features that users mainly use are bookmark, menu, search bar, refresh button, etc.
-2. Browser Engine:
-3. Networking:
-4. Data Storage:
-5. JavaScript Interpreter:
+2. Browser Engine: A browser enginein any browser is a core software component. It's primary job is to transform any of the resources of a web page into an interactive visual representation on a user's device.
+3. Networking: Networking is the protocol that provides an URL and manages all sorts of safety, privacy and communication.In addition, the store network traffic gets saved in retrieved documents.
+4. Data Storage: The cookies store information as the data store is an uniform layer that the browsers use. Storage processes like IndexedDB, WebSQL, localStorage, etc works well on browsers.
+5. JavaScript Interpreter:It allows conversion of JavaScript code in a document and the executes it. Then the engine shows the translation on the screen to the users.
 
 ## Rendering engine and its use:
 
