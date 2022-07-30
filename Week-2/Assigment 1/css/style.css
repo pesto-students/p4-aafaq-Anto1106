@@ -1,0 +1,59 @@
+body {
+    padding: 0;
+    margin: 0; 
+}
+
+header section{
+    display: flex;
+    flex-direction: column;
+}
+header section div{   
+    position: relative;
+    text-align: center;
+    color: black;
+    font-size: 28px;
+    top:60px;
+}
+
+main{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    top: 100px;
+    text-align: justify;
+}
+main section div{
+    padding: 0px;
+}
+main section{  
+    width: 50%; 
+    padding: 10px; 
+}
+
+main section aside picture{
+    position: relative;
+    top: 20px;
+    left: 250px;
+}
+
+main section aside picture img{
+    width: 250px;
+    height: 250px;
+}
+
+#registration-form{
+    position: relative;
+    top:200px;
+}
+
+#registration-form-title{
+    position: relative;
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+}
+#registration-form div form div{
+    position: relative;
+    left: 30px;
+    padding: 10px;
+}
