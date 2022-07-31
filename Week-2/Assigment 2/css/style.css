@@ -1,0 +1,66 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: aqua;
+}
+
+.main
+{
+   position: relative;
+   width: 200px;
+   height: 200px;
+   margin: 200px;
+   left: 450px;
+}
+
+.main > div
+{
+    position: relative;
+    width: 100px;
+    height: 100px;
+    transition-property: transform;
+    transition-duration: 2s;
+    transition-timing-function: ease;
+    float: left;
+    
+}
+
+.first
+{
+    background-color: red;
+    transform-origin:top left
+}
+
+.second
+{
+    background-color: yellow;
+    transform-origin:top right
+}
+
+.third
+{
+    background-color: blue;
+    transform-origin:bottom left
+}
+
+.fourth
+{
+    background-color: green;
+    transform-origin:bottom right
+}
+
+.main>span
+{
+    font-size: 24px;
+    font-weight: bolder;
+    margin: 90px 0px 0px 90px;
+    position: absolute;
+    z-index: -1;
+}
+
+.main:hover > .first ,.main:hover > .fourth  {
+    transform: rotate(90deg);
+}
+.main:hover > .second ,.main:hover > .third {
+    transform:  rotate(-90deg);
+}
