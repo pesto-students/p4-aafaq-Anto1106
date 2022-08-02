@@ -1,0 +1,122 @@
+
+body{
+    font-family: 'Lato';
+}
+.playlist{
+    background-color: #454545; 
+    width: 100%;
+    height: 250px;
+    display: flex;
+}
+.play-items{ 
+    float: right;
+    width: 96%;
+    height: 350px; 
+}
+.player{
+    background-color: #42689b;
+    float: right;
+    width: 100%; 
+    position:relative;
+} 
+nav {
+    background: #f0f0f0;
+    position: absolute;
+    height: 100%;
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+nav ul li {
+    list-style-type: none;
+    margin: 4px;
+    padding: 5px;
+    cursor: pointer;
+    padding-top: 45px;
+}
+.maine-album{
+    height: 200px;
+    width: 200px;
+    padding-left: 65px;
+    padding-top: 25px;
+}
+.player-album{
+    height: 70px;
+    width: 70px;
+    padding-left: 15px;
+    padding-top: 5px;
+}
+table#play-list-song{
+    width: 100%;
+    font-size: 14px;
+}
+table#play-list-song tr:nth-child(even) { 
+    background-color:#f0f0f0; 
+}
+table#play-list-song {
+    border-collapse: separate;
+    border-spacing: 0 1em;
+}
+.sync-music{
+    padding: 5px;
+    border: #454545;
+    border-style:solid;
+    color: blue;
+    font-size: 10px;
+    cursor: pointer;
+}
+
+.playlist-data{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: white;
+    padding: 10px;
+}
+
+.playlist-data-footer{
+    font-size: 12px;
+    padding-bottom: 15px;
+}
+.playlist-data-header{
+    padding-left: 10px;
+}
+.playlist-data-header span{
+    font-size: 10px;
+    padding-bottom: 10px;
+}
+
+.playlist-data-footer span{
+    padding-left: 10px;
+    cursor: pointer;
+}
+
+.player-data{
+    display: flex;
+    justify-content: space-between;
+    float: left;
+    color: white;
+    font-size: 12px;
+}
+.player-data-song{
+    flex-direction: column;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+.player-data-song div{
+    padding-top: 20px;
+}
+.player-controls{
+    /* padding-left: 100px; */
+    color: white;
+    font-size: x-large;
+    float: right!important; 
+    padding-right: 80px;
+}
+.player-controls span{
+    margin: 4px;
+    padding: 25px;
+    cursor: pointer;
+}
