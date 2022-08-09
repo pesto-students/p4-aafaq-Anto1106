@@ -10,8 +10,12 @@ function memoize(fn) {
   };
 }
 
-function add(a = 0, b = 0) {
-  return a + b;
+function add(...args) {
+  let sum = 0;
+  args.forEach((value) => {
+    sum = sum + value;
+  });
+  return sum;
 }
 
 const memoizeAdd = memoize(add);
@@ -32,6 +36,6 @@ console.timeEnd();
 console.log('Result is ' + result);
 
 console.time();
-result = memoizeAdd(100, 200);
+result = memoizeAdd(100, 100);
 console.timeEnd();
 console.log('Result is ' + result);
