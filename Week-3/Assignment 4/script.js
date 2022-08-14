@@ -1,7 +1,5 @@
 function createStack() {
-  //! Changing varible from items[] to let
-  //! items[] as items[] without any keyword will be global
-  let items = [];
+  const items = [];
   return {
     push(item) {
       items.push(item);
