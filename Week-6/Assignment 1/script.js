@@ -17,3 +17,8 @@ function maxSubArray(array, length) {
 
 var a = [-2, 1, -3, 4, -1, 2, 1, -5, 4];
 console.log('Maximum contiguous sum is', maxSubArray(a, a.length));
+
+/*
+  Time Complexity: O(n)
+  Space Complexity : O(1)
+*/
